@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: '3d Earth Scroll',
-  description: 'Next.js v13 - TailwindCss - React Three Fiber - Lenis Scroll',
+  description: 'Next.js v13 - TailwindCss - React Three Fiber - Framer Motion - Lenis Scroll',
 }
  
 export default function RootLayout({ children }) {
