@@ -1,0 +1,21 @@
+.titles {
+    @apply w-full border-0 border-t-[1px] border-solid;
+    border-top-color: rgba(183, 171, 152, .25);
+}
+
+.title {
+    @apply border-0 border-b-[1px] border-solid cursor-pointer relative z-[2];
+    border-bottom-color: rgba(183, 171, 152, .25);
+
+    > div {
+        @apply inline-block pl-[10%];
+    }
+
+    p {
+        @apply inline-block text-[#b7ab98] uppercase font-bold text-[8vw] leading-[7.5vw] m-0 relative z-[2];
+
+        &:nth-of-type(2) {
+            @apply block absolute text-[#1c1c1c] top-0 z-[1];
+        }
+    }
+}

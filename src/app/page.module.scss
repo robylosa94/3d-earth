@@ -1,0 +1,11 @@
+.main {
+    @apply h-[60vw] bg-[#0f0f0f] relative flex items-center justify-center;
+
+    img {
+        @apply h-full;
+    }
+}
+
+.spacer {
+    @apply h-[100vh] flex items-center justify-center text-[#b7ab98] font-bold text-[2vw];
+}
